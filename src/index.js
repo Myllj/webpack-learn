@@ -3,6 +3,16 @@ import './assets/style/style.css';
 // import Avatar from './assets/images/avatar.jpg';
 import printMe from './print.js';
 
+/**
+ * 演示引用一个自己打包的library时，放开注释
+ * 首先-执行npm run build2打包src/create-lib下的库
+ * 然后-执行npm run start或npm run build1查看该library使用ESmodule引入效果
+ * 备注：1、可以通过src/index.html查看通过script标签的引入效果
+ * 2、可以通过cd src/create-lib目录下npm run build2后，通过npm public发布该包，后续再在其他项目import
+ */
+// import {numToWord} from './create-lib/dist/library'
+// console.log('numToWord8888',numToWord(2));
+
 function component() {
   let element = document.createElement('div');
   
@@ -13,9 +23,9 @@ function component() {
   element.classList.add('hello');
 
   //加载 images 图像
-  var myAvatar = new Image();
-  myAvatar.src = Avatar;
-  element.appendChild(myAvatar);
+  // var myAvatar = new Image();
+  // myAvatar.src = Avatar;
+  // element.appendChild(myAvatar);
 
   var btn = document.createElement('button');
   btn.innerHTML = '点击这里，然后查看 console！';

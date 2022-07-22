@@ -336,3 +336,7 @@ module.exports = {
   //     }
   //   }
   ```
+
+
+  ## 创建 library
+  [创建 library](https://v4.webpack.docschina.org/guides/author-libraries/#%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA-library)

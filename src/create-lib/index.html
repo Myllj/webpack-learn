@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <!-- 成功,webpack在配置了externals，使得lodash不会打包进入bundle，所以下面引入library时需提前引入lodash-->
+  <script src="https://cdn.bootcdn.net/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+  <script src="./dist/library.js"></script>
+  <script>
+    console.log(window.root);
+    let result1=window.root.numToWord(1)
+    let result2=window.root.wordToNum('Two')
+    console.log('result1',result1);
+    console.log('result2',result2);
+  </script>
+</body>
+</html>
+<!-- 本html文件，暂时用来测试打包一个库的， demo路径src/create-lib-->
