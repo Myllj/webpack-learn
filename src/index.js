@@ -8,7 +8,7 @@ import printMe from './print.js';
  * 首先-执行npm run build2打包src/create-lib下的库
  * 然后-执行npm run start或npm run build1查看该library使用ESmodule引入效果
  * 备注：1、可以通过src/index.html查看通过script标签的引入效果
- * 2、可以通过cd src/create-lib目录下npm run build2后，通过npm public发布该包，后续再在其他项目import
+ * 2、可以通过cd src/create-lib目录下npm run build2生成dist后，通过npm public发布该包，后续再在其他项目import
  */
 // import {numToWord} from './create-lib/dist/library'
 // console.log('numToWord8888',numToWord(2));
