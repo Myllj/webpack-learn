@@ -25,12 +25,12 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       //引用图片时放开
-      // {
-      //     test: /\.(png|svg|jpg|gif)$/,
-      //     use: [
-      //       'file-loader'
-      //     ]
-      // }
+      {
+          test: /\.(png|svg|jpg|gif)$/,
+          use: [
+            'file-loader'
+          ]
+      }
     ],
   },
 
