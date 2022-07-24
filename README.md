@@ -4,9 +4,9 @@
 > webpack5和webpack4的版本，新增的概念、配置等可能会有所不同，具体情况请查阅官方英文文档，英文不好可以尝试翻译，或者比对中文文档
 
 ## 目录
-+ src: webpackd的一些常规配置
-+ src/examples: 为webpack一些实战案例配置的例子
-  + src/examplescreate-lib：[打包一个库](https://github.com/Myllj/webpack-learn/tree/main/src/examples/create-lib)
++ src: webpack的一些常规配置
++ src/examples: webpack一些实战案例配置的例子
+  + src/examples/create-lib：[打包一个库](https://github.com/Myllj/webpack-learn/tree/main/src/examples/create-lib)
 
 
 ## 项目描述
