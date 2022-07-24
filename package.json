@@ -10,7 +10,8 @@
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack",
     "build1": "webpack --config webpack.prod.js",
-    "build:lib": "webpack --config ./src/examples/create-lib/webpack.lib.js"
+    "build:lib": "webpack --config ./src/examples/create-lib/webpack.lib.js",
+    "build:page": "webpack --config ./src/examples/mult-page/webpack.config.js"
   },
   "author": "llj",
   "license": "ISC",

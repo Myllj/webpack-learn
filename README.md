@@ -7,6 +7,7 @@
 + src: webpack的一些常规配置
 + src/examples: webpack一些实战案例配置的例子
   + src/examples/create-lib：[打包一个库](https://github.com/Myllj/webpack-learn/tree/main/src/examples/create-lib)
+  + src/examples/mult-page：[打包多页面](https://github.com/Myllj/webpack-learn/tree/main/src/examples/mult-page)
 
 
 ## 项目描述
